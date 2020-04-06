@@ -188,7 +188,7 @@ const signatureFormat = (signature) => {
 
     function onPenSelect(e) {
         const color = e.target.getAttribute("data-color");
-        const eraser = color === "white";
+        const eraser = color === "green";
         const width = eraser ? ERASER_WIDTH : PEN_WIDTH;
         current.color = color;
         current.width = width;
