@@ -188,7 +188,7 @@ const signatureFormat = (signature) => {
 
     function onPenSelect(e) {
         const color = e.target.getAttribute("data-color");
-        const eraser = color === "green";
+        const eraser = color === "rgb(101, 161, 139)";
         const width = eraser ? ERASER_WIDTH : PEN_WIDTH;
         current.color = color;
         current.width = width;
@@ -239,7 +239,7 @@ const signatureFormat = (signature) => {
         let color = current.color;
         let unicode, size, tweakX, tweakY;
         if (mode === "pen") {
-            if (color === "white") {
+            if (color === "green") {
                 unicode = "\uf12d";
                 size = 48;
                 tweakX = 70;
@@ -267,7 +267,7 @@ const signatureFormat = (signature) => {
         context.fillStyle = color;
         context.fillText(unicode, canvas.width / 2, canvas.width / 2);
 
-        $("#chalkboard").css(
+        $("#body").css(
             "cursor",
             `url(${canvas.toDataURL("image/png")}) ${tweakX} ${tweakY}, auto`
         );
