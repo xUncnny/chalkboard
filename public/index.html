@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>Whiteboard</title>
+    <title>chalkboard</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" />
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css" />
@@ -12,7 +12,7 @@
 
 <body>
     <div id="menu">
-        <div id="title">Whiteboard</div>
+        <div id="title">chalkboard</div>
         <div>
             <button id="clear-button">Clear board</button>
         </div>
@@ -22,7 +22,7 @@
         </div>
     </div>
     <div>
-        <canvas id="whiteboard" width="1580" height="1180"></canvas>
+        <canvas id="chalkboard" width="1580" height="1180"></canvas>
         <div id="sticky-note-container">
             <div id="note-origin" class="note hidden">
                 <div class="delete-note"><i class="fas fa-times"></i></div>
@@ -35,14 +35,14 @@
 
     <div class="tools">
         <div class="colors">
-            <div class="color black" data-color="black">
-                <i class="fas fa-pen" data-color="black"></i>
+            <div class="color white" data-color="white">
+                <i class="fas fa-pen" data-color="white"></i>
             </div>
             <div class="color red" data-color="red">
                 <i class="fas fa-pen" data-color="red"></i>
             </div>
-            <div class="color green" data-color="green">
-                <i class="fas fa-pen" data-color="green"></i>
+            <div class="color black" data-color="black">
+                <i class="fas fa-pen" data-color="black"></i>
             </div>
             <div class="color blue" data-color="blue">
                 <i class="fas fa-pen" data-color="blue"></i>
@@ -50,8 +50,8 @@
             <div class="color gold" data-color="gold">
                 <i class="fas fa-pen" data-color="gold"></i>
             </div>
-            <div class="color white" data-color="white">
-                <i class="fas fa-eraser" data-color="white"></i>
+            <div class="color green" data-color="green">
+                <i class="fas fa-eraser" data-color="green"></i>
             </div>
         </div>
         <div class="stickers">
