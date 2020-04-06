@@ -15,7 +15,7 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: rgb(180, 176, 120);
+    background: linear-gradient( 30deg, rgb(153, 153, 153) 12%, rgba(0, 0, 0, 0) 12.5%, rgba(0, 0, 0, 0) 87%, rgb(153, 153, 153) 87.5%, rgb(153, 153, 153) 0), linear-gradient( 150deg, rgb(153, 153, 153) 12%, rgba(0, 0, 0, 0) 12.5%, rgba(0, 0, 0, 0) 87%, rgb(153, 153, 153) 87.5%, rgb(153, 153, 153) 0), linear-gradient( 30deg, rgb(153, 153, 153) 12%, rgba(0, 0, 0, 0) 12.5%, rgba(0, 0, 0, 0) 87%, rgb(153, 153, 153) 87.5%, rgb(153, 153, 153) 0), linear-gradient( 150deg, rgb(153, 153, 153) 12%, rgba(0, 0, 0, 0) 12.5%, rgba(0, 0, 0, 0) 87%, rgb(153, 153, 153) 87.5%, rgb(153, 153, 153) 0), linear-gradient( 60deg, rgb(187, 187, 187) 25%, rgba(0, 0, 0, 0) 25.5%, rgba(0, 0, 0, 0) 75%, rgb(187, 187, 187) 75%, rgb(187, 187, 187) 0), linear-gradient( 60deg, rgb(187, 187, 187) 25%, rgba(0, 0, 0, 0) 25.5%, rgba(0, 0, 0, 0) 75%, rgb(187, 187, 187) 75%, rgb(187, 187, 187) 0), rgb(170, 170, 170);
 }
 
 #chalkboard {

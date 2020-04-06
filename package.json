@@ -10,7 +10,5 @@
     },
     "scripts": {
         "start": "node index"
-    },
-    "author": "proyuki02",
-    "license": "MIT"
+    }
 }
