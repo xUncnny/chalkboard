@@ -188,7 +188,7 @@ const signatureFormat = (signature) => {
 
     function onPenSelect(e) {
         const color = e.target.getAttribute("data-color");
-        const eraser = color === "gray";
+        const eraser = color === "cadetblue";
         const width = eraser ? ERASER_WIDTH : PEN_WIDTH;
         current.color = color;
         current.width = width;
@@ -239,7 +239,7 @@ const signatureFormat = (signature) => {
         let color = current.color;
         let unicode, size, tweakX, tweakY;
         if (mode === "pen") {
-            if (color === "rgb(101, 161, 139);") {
+            if (color === "cadetblue") {
                 unicode = "\uf12d";
                 size = 48;
                 tweakX = 70;

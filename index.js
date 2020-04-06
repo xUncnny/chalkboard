@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.static(__dirname + "/public"));
 
 const Redis = require("ioredis");
-const REDIS_PREFIX = process.env.REDIS_PREFIX || "whiteboard-";
+const REDIS_PREFIX = process.env.REDIS_PREFIX || "chalkboard-";
 const { REDIS_URL } = process.env;
 let redis;
 if (REDIS_URL) {
