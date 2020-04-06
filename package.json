@@ -1,0 +1,16 @@
+{
+  "name": "whiteboard",
+  "version": "0.1.0",
+  "description": "A simple collaborative whiteboard",
+  "main": "index.js",
+  "dependencies": {
+    "express": "4.9.x",
+    "ioredis": "^4.16.1",
+    "socket.io": "^2.3.0"
+  },
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "proyuki02",
+  "license": "MIT"
+}
